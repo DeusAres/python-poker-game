@@ -5,5 +5,12 @@ Play Poker Texas Hold'em with Python on a GUI!
 
 # Requirements
 
-Python 3.9+, PIL, Numpy, PYSimpleGUI
+Python 3.9+, PIL, Numpy, PYSimpleGUI, playsound==1.2.2
 
+# Usage
+
+Run playGame.py
+
+![image](https://user-images.githubusercontent.com/60852205/150779259-cec46efe-4e21-438b-a665-e6540c60089b.png)
+
+Set the options and enjoy your game!
