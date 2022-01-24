@@ -49,11 +49,11 @@ def main(playerName, computerName, startingMoney, minBet):
             gui.lockCheck(window)
 
         event, value = gui.readInput(window)
+        if event == 'New Game':
+            raise startOver
         gui.lockButtons(window)
         gui.lockCheck(window)
 
-        if event == 'New Game':
-            raise startOver
         if event == 'Fold':
             raise playerFold
         
@@ -234,22 +234,11 @@ def main(playerName, computerName, startingMoney, minBet):
     window.close()
     return None
 
-"""
-datas = gui.startGame()
-if datas == 1:
-    sys.exit(0)
-"""
-"""
 
-"""
 while True:
     try:
-        """
+        
         datas = gui.startGame()
-        if datas == 1:
-            break
-        """
-        datas = ["Nobody", "Skynet", 10000, 500]
         main(*datas)
         break
     except startOver:
