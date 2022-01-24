@@ -14,3 +14,7 @@ Run playGame.py
 ![image](https://user-images.githubusercontent.com/60852205/150779259-cec46efe-4e21-438b-a665-e6540c60089b.png)
 
 Set the options and enjoy your game!
+
+# Bugs!
+
+Because of poor projecting and so many other factors, consider to report bugs!
