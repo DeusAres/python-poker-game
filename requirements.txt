@@ -1,0 +1,5 @@
+pillow
+numpy
+funPIL
+PySimpleGUI
+playsound==1.2.2
